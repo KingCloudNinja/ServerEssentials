@@ -54,13 +54,8 @@ public class Main extends JavaPlugin implements Listener {
     		if(commandLabel.equalsIgnoreCase("help")) {
 	    		player.sendMessage(ChatColor.GREEN + "List of Commands: " + ChatColor.GREEN + "COMING SOON!!");
 	        	
-	*/}
-	    	if(commandLabel.equalsIgnoreCase("discord")) {
-	    		this.getConfig();
-	    		config.addDefault("servername", true);
-	    		config.addDefault("discord", true);
-	    		player.sendMessage(ChatColor.AQUA + config.getString("servername") + ChatColor.DARK_GRAY + "> " + ChatColor.GRAY + "Join our Discord!! " + ChatColor.GREEN + config.getString("discord"));	
-	/*}
+	*/
+	    	/*}
 	    	
 	    	if(commandLabel.equalsIgnoreCase("forums")) {
 	    		player.sendMessage(ChatColor.AQUA + "NightPVP Network" + ChatColor.DARK_GRAY + "> " + ChatColor.GRAY + "Check out our Forums! " + ChatColor.GREEN + "(COMING SOON)");
