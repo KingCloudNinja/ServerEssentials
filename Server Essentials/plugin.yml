@@ -1,0 +1,166 @@
+main: tld.example.myplugin.Main
+name: ServerEssentials
+version: 0.0.1
+author: KingCloudNinja
+description: Server Essentials Plugin
+commands:
+  kit:
+    description: Server Essentials Command
+    usage: 
+    permission: server.all
+    permission-message: Unknown command. Type "/help" for help.
+  kits:
+    description: Server Essentials Command
+    usage: 
+    permission: server.all
+    permission-message: Unknown command. Type "/help" for help.
+  warps:
+    description: Server Essentials Command
+    usage: 
+    permission: server.all
+    permission-message: Unknown command. Type "/help" for help.
+  warp:
+    description: Server Essentials Command
+    usage: 
+    permission: server.all
+    permission-message: Unknown command. Type "/help" for help.
+  help:
+    description: Server Essentials Command
+    usage: 
+    permission: server.all
+    permission-message: Unknown command. Type "/help" for help.
+  discord:
+    description: Server Essentials Command
+    usage: 
+    permission: server.all
+    permission-message: Unknown command. Type "/help" for help.
+  forums:
+    description: Server Essentials Command
+    usage: 
+    permission: server.all
+    permission-message: Unknown command. Type "/help" for help.
+  youtube:
+    description: Server Essentials Command
+    usage: 
+    permission: server.all
+    permission-message: Unknown command. Type "/help" for help.
+  vote:
+    description: Server Essentials Command
+    usage: 
+    permission: server.all
+    permission-message: Unknown command. Type "/help" for help.
+  voting:
+    description: Server Essentials Command
+    usage: 
+    permission: server.all
+    permission-message: Unknown command. Type "/help" for help.
+  hype:
+    description: Server Essentials Command
+    usage: 
+    permission: server.all
+    permission-message: Unknown command. Type "/help" for help.
+  spec:
+    description: Server Essentials Command
+    usage: 
+    permission: server.mod
+    permission-message: Unknown command. Type "/help" for help.
+  v:
+    description: Server Essentials Command
+    usage: 
+    permission: server.mod
+    permission-message: Unknown command. Type "/help" for help.
+  rules:
+    description: Server Essentials Command
+    usage: 
+    permission: server.all
+    permission-message: Unknown command. Type "/help" for help.
+  say:
+    description: Server Essentials Command
+    usage: 
+    permission: server.mod
+    permission-message: Unknown command. Type "/help" for help.
+  apply:
+    description: Server Essentials Command
+    usage: 
+    permission: server.all
+    permission-message: Unknown command. Type "/help" for help.
+  staff:
+    description: Server Essentials Command
+    usage: 
+    permission: server.all
+    permission-message: Unknown command. Type "/help" for help.
+  unv:
+    description: Server Essentials Command
+    usage: 
+    permission: server.mod
+    permission-message: Unknown command. Type "/help" for help.
+  plugins:
+    description: Server Essentials Command
+    usage: 
+    permission: dynopvp.nobody
+    permission-message: Unknown command. Type "/help" for help.
+  pl:
+    description: Server Essentials Command
+    usage: 
+    permission: dynopvp.nobody
+    permission-message: Unknown command. Type "/help" for help.
+  twitter:
+    description: Server Essentials Command
+    usage: 
+    permission: server.all
+    permission-message: Unknown command. Type "/help" for help.
+  spectator:
+    description: Server Essentials Command
+    usage: 
+    permission: server.mod
+    permission-message: Unknown command. Type "/help" for help.
+  fakeleave:
+    description: Server Essentials Command
+    usage: 
+    permission: server.mod
+    permission-message: Unknown command. Type "/help" for help.
+  unfakeleave:
+    description: Server Essentials Command
+    usage: 
+    permission: server.mod
+    permission-message: Unknown command. Type "/help" for help.
+  spawn:
+    description: Server Essentials Command
+    usage: 
+    permission: server.all
+    permission-message: Unknown command. Type "/help" for help.
+  shop:
+    description: Server Essentials Command
+    usage: 
+    permission: server.all
+    permission-message: Unknown command. Type "/help" for help.
+  trail:
+    description: Server Essentials Command
+    usage: 
+    permission: server.all
+    permission-message: Unknown command. Type "/help" for help.
+  dab:
+    description: Server Essentials Command
+    usage: 
+    permission: server.all
+    permission-message: Unknown command. Type "/help" for help.
+  shrug:
+    description: Server Essentials Command
+    usage: 
+    permission: server.all
+    permission-message: Unknown command. Type "/help" for help.
+  about:
+    description: Server Essentials Command
+    usage: 
+    permission: server.all
+    permission-message: Unknown command. Type "/help" for help.
+  mute:
+    description: Server Essentials Command
+    usage: 
+    permission: server.mod
+    permission-message: Unknown command. Type "/help" for help.
+  ban:
+    description: Server Essentials Command
+    usage: 
+    permission: server.mod
+    permission-message: Unknown command. Type "/help" for help.
