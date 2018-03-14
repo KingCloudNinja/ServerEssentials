@@ -215,7 +215,7 @@ public class Main extends JavaPlugin implements Listener {
 						}
 					}
 			}
-			if(args[1].equals("rude") || args[1].equals("disrespect") || args[1].equals("mean")){
+			if(args[1].equals("rude") || args[1].equals("disrespect") || args[1].equals("disrespective")){
 				if(args.length == 2){
 					player.performCommand("emute " + target.getName());
 					Bukkit.broadcastMessage(player.getName() + ChatColor.GREEN + " muted " + ChatColor.WHITE + target.getName() + ChatColor.GREEN + " for " + args[1]);

@@ -158,9 +158,9 @@ commands:
     description: Server Essentials Command
     usage: 
     permission: server.mod
-    permission-message: Unknown command. Type "/help" for help.
+    permission-message: You are not allowed to use this command!
   ban:
     description: Server Essentials Command
     usage: 
     permission: server.mod
-    permission-message: Unknown command. Type "/help" for help.
+    permission-message: You are not allowed to use this command!
