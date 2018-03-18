@@ -45,26 +45,7 @@ public class Main extends JavaPlugin implements Listener {
     	if(commandLabel.equalsIgnoreCase("shop")) {
         	player.performCommand("ewarp shop");
     	
-		/*}
-    	if(commandLabel.equalsIgnoreCase("hype")) {
-        	Bukkit.broadcastMessage(ChatColor.GRAY + player.getName() + ChatColor.GRAY + " is hyping big time! Let's go!" );
-    		
-    	
-    	}
-    		if(commandLabel.equalsIgnoreCase("help")) {
-	    		player.sendMessage(ChatColor.GREEN + "List of Commands: " + ChatColor.GREEN + "COMING SOON!!");
-	        	
-	*/
-	    	/*}
-	    	
-	    	if(commandLabel.equalsIgnoreCase("forums")) {
-	    		player.sendMessage(ChatColor.AQUA + "NightPVP Network" + ChatColor.DARK_GRAY + "> " + ChatColor.GRAY + "Check out our Forums! " + ChatColor.GREEN + "(COMING SOON)");
-	    		
-	}
-	    	if(commandLabel.equalsIgnoreCase("youtube")) {
-	    		player.sendMessage(ChatColor.AQUA + "NightPVP Network" + ChatColor.DARK_GRAY + "> " + ChatColor.GRAY + "Check out KingCloudNinja's Youtube!! " + ChatColor.GREEN + "https://www.youtube.com/channel/UCBPY0o4NS6ZrWibNmOdb4ug");
-	    	}
-	    	*/}
+		
 	    		if(commandLabel.equalsIgnoreCase("about")) {
 		    		player.sendMessage(ChatColor.DARK_RED + "ServerEssentials" + ChatColor.DARK_GRAY + "> " + ChatColor.GRAY + "ServerEssentials Plugin created by: KingCloudNinja. Get more plugins here: https://discord.gg/zGTRYuh");
 		    	}
@@ -90,26 +71,7 @@ public class Main extends JavaPlugin implements Listener {
 				player.setGameMode(GameMode.SURVIVAL);
 				player.sendMessage(ChatColor.GRAY + "You are now " + ChatColor.GREEN + "Unvanished" + ChatColor.GRAY + ".");
 				player.teleport(location);
-			/*}
-			if(commandLabel.equalsIgnoreCase("rules")){
-				player.sendMessage(ChatColor.GREEN + "Rules:");
-				player.sendMessage(ChatColor.GRAY + "Do not advertise any kind of NightPVP Network.");
-				player.sendMessage(ChatColor.GRAY + "Do not leak any personal info.");
-				player.sendMessage(ChatColor.GRAY + "Do not join the NightPVP Network with a mod or client that gives you a advantage.");
-				player.sendMessage(ChatColor.GRAY + "Do not be toxic.");
-				player.sendMessage(ChatColor.GRAY + "Do not spam/flood chat.");
-				player.sendMessage(ChatColor.GRAY + "Be respectful to staff members. ");
-				player.sendMessage(ChatColor.GRAY + "If other players need help, please help them, this will give you a advantage on getting staff.");
-				player.sendMessage(ChatColor.GRAY + "Do not minimod. You are not staff. If you find a player breaking rules please report them on our discord. ");
-				player.sendMessage(ChatColor.GRAY + "Do not ask for ranks/permissions.");
-				player.sendMessage(ChatColor.GRAY + "If you find any bugs, please report them on our discord.");
-				player.sendMessage(ChatColor.GRAY + "Do not abuse any glitches.");
-				player.sendMessage(ChatColor.GRAY + "Do not do IRL Money Trades. (Includes Trading for In Game Stuff with real money).");*/
-		
-		}
-	/*if(commandLabel.equalsIgnoreCase("apply") || commandLabel.equalsIgnoreCase("staff")){
-		player.sendMessage(ChatColor.GRAY + "Apply for staff here! " + ChatColor.GREEN + "https://goo.gl/KAz13a");
-	}*/
+			
 		
 	if(commandLabel.equalsIgnoreCase("fakeleave")){
 		player.setGameMode(GameMode.SPECTATOR); 
