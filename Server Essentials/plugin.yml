@@ -164,3 +164,13 @@ commands:
     usage: 
     permission: server.mod
     permission-message: You are not allowed to use this command!
+  broadcast:
+    description: Server Essentials Command
+    usage:
+    permission: server.admin
+    permission-message: You are not allowed to use this command!
+  bc:
+    description: Server Essentials Command
+    usage:
+    permission: server.admin
+    permission-message: You are not allowed to use this command!
