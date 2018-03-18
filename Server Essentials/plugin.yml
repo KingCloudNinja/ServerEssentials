@@ -174,3 +174,33 @@ commands:
     usage:
     permission: server.admin
     permission-message: You are not allowed to use this command!
+  gms:
+    description: Server Essentials Command
+    usage:
+    permission: server.mod
+    permission-message: You are not allowed to use this command!
+  gma:
+    description: Server Essentials Command
+    usage:
+    permission: server.admin
+    permission-message: You are not allowed to use this command!
+  gmc:
+    description: Server Essentials Command
+    usage:
+    permission: server.admin
+    permission-message: You are not allowed to use this command!
+  survival:
+    description: Server Essentials Command
+    usage:
+    permission: server.mod
+    permission-message: You are not allowed to use this command!
+  adventure:
+    description: Server Essentials Command
+    usage:
+    permission: server.admin
+    permission-message: You are not allowed to use this command!
+  creative:
+    description: Server Essentials Command
+    usage:
+    permission: server.admin
+    permission-message: You are not allowed to use this command!
