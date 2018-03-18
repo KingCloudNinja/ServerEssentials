@@ -194,7 +194,33 @@ if(commandLabel.equalsIgnoreCase("ban")){
 			}
 	}
 		
-
+if(commandLabel.equalsIgnoreCase("broadcast") || commandLabel.equalsIgnoreCase("bc"){
+If(args.length == 1){
+bukkit.broadcastMessage(config.getMainColor + config.getServerName + ChatColor.DARK_GRAY + "> " + args[0]);
+}
+If(args.length == 2){
+bukkit.broadcastMessage(config.getMainColor + config.getServerName + ChatColor.DARK_GRAY + "> " + args[0] + " " + args[1]);
+}
+If(args.length == 3){
+bukkit.broadcastMessage(config.getMainColor + config.getServerName + ChatColor.DARK_GRAY + "> " + args[0] + " " + args[1] + " " + args[2]);
+}
+If(args.length == 4){
+bukkit.broadcastMessage(config.getMainColor + config.getServerName + ChatColor.DARK_GRAY + "> " + args[0] + " " + args[1] + " " + args[2] + " " + args[3]);
+}
+If(args.length == 5){
+bukkit.broadcastMessage(config.getMainColor + config.getServerName + ChatColor.DARK_GRAY + "> " + args[0] + " " + args[1] + " " + args[2] + " " + args[3] + " " + args[4]);
+}
+If(args.length == 6){
+bukkit.broadcastMessage(config.getMainColor + config.getServerName + ChatColor.DARK_GRAY + "> " + args[0] + " " + args[1] + " " + args[2] + " " + args[3] + " " + args[4] + " " + args[5]);
+}
+If(args.length == 7){
+bukkit.broadcastMessage(config.getMainColor + config.getServerName + ChatColor.DARK_GRAY + "> " + args[0] + " " + args[1] + " " + args[2] + " " + args[3] + " " + args[4] + " " + args[5] + " " + args[6]);
+}
+If(args.length == 8){
+bukkit.broadcastMessage(config.getMainColor + config.getServerName + ChatColor.DARK_GRAY + "> " + args[0] + " " + args[1] + " " + args[2] + " " + args[3] + " " + args[4] + " " + args[5] + " " + args[6] + " " + args[7]);
+}
+If(args.length == 9){
+bukkit.broadcastMessage(config.getMainColor + config.getServerName + ChatColor.DARK_GRAY + "> " + args[0] + " " + args[1] + " " + args[2] + " " + args[3] + " " + args[4] + " " + args[5] + " " + args[6] + " " + args[7] + " " + args[8]); 
 		
 	return false;
 	}
