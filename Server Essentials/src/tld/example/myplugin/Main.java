@@ -96,7 +96,13 @@ public class Main extends JavaPlugin implements Listener {
 				if(commandLabel.equalsIgnoreCase ("discord")){
 this.getConfig()
 player.sendMessage (config.getMainColor() + config.getServerName() + ChatColor.DARK_GRAY + "> " + config.getSecondColor + "Join our Discord!! " + config.getMainColor + config.getDiscord);
-		if(commandLabel.equalsIgnoreCase("ban")){
+					}
+if(commandLabel.equalsIgnoreCase ("forums")){
+this.getConfig()
+player.sendMessage (config.getMainColor() + config.getServerName() + ChatColor.DARK_GRAY + "> " + config.getSecondColor + "Check out our forums!! " + config.getMainColor + config.getForums);
+		}
+if(commandLabel.equalsIgnoreCase("ban")){
+			
 			Player target = Bukkit.getServer().getPlayer(args[0]);
 			if(args.length == 0 || args.length == 1){
 				player.sendMessage(ChatColor.RED + "Usage: /ban (player) Reason");
