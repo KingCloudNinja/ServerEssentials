@@ -42,10 +42,18 @@ public class Main extends JavaPlugin implements Listener {
     	if(commandLabel.equalsIgnoreCase("spawn")) {
         	player.performCommand("ewarp spawn");
     	}
-    	if(commandLabel.equalsIgnoreCase("shop")) {
-        	player.performCommand("ewarp shop");
-    	
-		
+         
+		player.setGameMode(Gamemode.SURVIVAL);
+player.sendMessage(ChatColor.GRAY + "Gamemode has been updated to " + ChatColor.GREEN + "Survival" );
+}
+if(commandLabel.equalsIgnoreCase("gma") || commandLabel.equalsIgnoreCase ("adventure")){
+player.setGameMode(Gamemode.ADVENTURE);
+player.sendMessage(ChatColor.GRAY + "Gamemode has been updated to " + ChatColor.GREEN + "Adventure" );
+}
+if(commandLabel.equalsIgnoreCase("gmc") || commandLabel.equalsIgnoreCase ("creative")){
+player.setGameMode(Gamemode.CREATIVE);
+player.sendMessage(ChatColor.GRAY + "Gamemode has been updated to " + ChatColor.GREEN + "Creative" );
+}
 	    		if(commandLabel.equalsIgnoreCase("about")) {
 		    		player.sendMessage(ChatColor.DARK_RED + "ServerEssentials" + ChatColor.DARK_GRAY + "> " + ChatColor.GRAY + "ServerEssentials Plugin created by: KingCloudNinja. Get more plugins here: https://discord.gg/zGTRYuh");
 		    	}
