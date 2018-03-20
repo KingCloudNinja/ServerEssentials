@@ -1,0 +1,18 @@
+Permissions for ServerEssentials.
+
+Player Commands:
+
+/hype - server.all
+/dab - server.all
+/shrug - server.all
+/about - server.all
+/spawn - server.all (REQUIRES ESSENTIALS PLUGIN)
+/shop - server.all (REQUIRES ESSENTIALS PLUGIN) 
+/trail - server.all (REQUIRES TRAILS PLUGIN)
+
+Moderator Commands:
+
+/spec - server.mod
+/v - server.mod
+
+Admin Commands:
