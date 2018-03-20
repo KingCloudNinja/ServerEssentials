@@ -1,4 +1,5 @@
 package tld.example.myplugin;
+
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.GameMode;
@@ -44,9 +45,6 @@ public class Main extends JavaPlugin implements Listener {
     	config.addDefault("servername", true);
     	config.addDefault("discord", true);
     	String servername = (String) "ServerName";
-    	
-    	
-    	
     	
     	if(commandLabel.equalsIgnoreCase("trail")) {
         	player.performCommand("trails");
@@ -237,7 +235,39 @@ public class Main extends JavaPlugin implements Listener {
 				player.sendMessage(ChatColor.RED + "Usage: /fly OR /fly (player)");
 			}
 		}
-		
+		if(commandLabel.equalsIgnoreCase("feed") || commandLabel.equalsIgnoreCase("eat")){
+			if(args.length == 0){
+			player.setFoodLevel(20);
+			player.sendMessage(ChatColor.GRAY + "Your appetite has been sated.");
+			}
+			if(args.length >= 1){
+				Player target = Bukkit.getServer().getPlayer(args[0]);
+				target.setFoodLevel(20);
+				target.sendMessage(ChatColor.GRAY + "Your appetite has been sated by " + player.getName());
+				player.sendMessage(ChatColor.GRAY + "You fed " + target.getName());
+			}
+			if(args.length >= 2){
+				player.sendMessage(ChatColor.RED + "Too many arguments. Usage: /heal OR /heal (player)");
+			}
+				
+		}
+		if(commandLabel.equalsIgnoreCase("heal") || commandLabel.equalsIgnoreCase("restore")){
+			if(args.length == 0){
+			player.setHealth(20);
+			player.sendMessage(ChatColor.GRAY + "You have been healed.");
+			player.getActivePotionEffects().remove(true);
+			}
+			if(args.length >= 1){
+				Player target = Bukkit.getServer().getPlayer(args[0]);
+				target.setHealth(20);
+				target.sendMessage(ChatColor.GRAY + "You have been healed by " + player.getName());
+				player.sendMessage(ChatColor.GRAY + "You healed " + target.getName());
+				target.getActivePotionEffects().remove(true);
+			}
+			if(args.length >= 2){
+				player.sendMessage(ChatColor.RED + "Too many arguments. Usage: /heal OR /heal (player)");
+			}
+		}
 	return false;
 	}
 

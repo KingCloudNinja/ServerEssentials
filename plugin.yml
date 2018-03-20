@@ -6,91 +6,89 @@ description: Server Essentials Plugin
 commands:
   hype:
     description: Server Essentials Command
-    usage: 
     permission: server.all
     permission-message: Unknown command. Type "/help" for help.
   spec:
     description: Server Essentials Command
-    usage: 
     permission: server.mod
     permission-message: Unknown command. Type "/help" for help.
   v:
     description: Server Essentials Command
-    usage: 
     permission: server.mod
     permission-message: Unknown command. Type "/help" for help.
   unv:
     description: Server Essentials Command
-    usage: 
     permission: server.mod
     permission-message: Unknown command. Type "/help" for help.
   spectator:
     description: Server Essentials Command
-    usage: 
     permission: server.mod
     permission-message: Unknown command. Type "/help" for help.
   fakeleave:
     description: Server Essentials Command
-    usage: 
     permission: server.mod
     permission-message: Unknown command. Type "/help" for help.
   unfakeleave:
     description: Server Essentials Command
-    usage: 
     permission: server.mod
     permission-message: Unknown command. Type "/help" for help.
   spawn:
     description: Server Essentials Command
-    usage: 
     permission: server.all
     permission-message: Unknown command. Type "/help" for help.
   shop:
     description: Server Essentials Command
-    usage: 
     permission: server.all
     permission-message: Unknown command. Type "/help" for help.
   trail:
     description: Server Essentials Command
-    usage: 
     permission: server.all
     permission-message: Unknown command. Type "/help" for help.
   dab:
     description: Server Essentials Command
-    usage: 
     permission: server.all
     permission-message: Unknown command. Type "/help" for help.
   shrug:
     description: Server Essentials Command
-    usage: 
     permission: server.all
     permission-message: Unknown command. Type "/help" for help.
   about:
     description: Server Essentials Command
-    usage: 
     permission: server.all
     permission-message: Unknown command. Type "/help" for help.
   mute:
     description: Server Essentials Command
-    usage: 
     permission: server.mod
     permission-message: You are not allowed to use this command!
   ban:
     description: Server Essentials Command
-    usage: 
     permission: server.mod
     permission-message: You are not allowed to use this command!
   bc:
     description: Server Essentials Command
-    usage: 
     permission: server.mod
     permission-message: You are not allowed to use this command!
   broadcast:
     description: Server Essentials Command
-    usage: 
     permission: server.mod
     permission-message: You are not allowed to use this command!
   fly:
     description: Server Essentials Command
-    usage: 
     permission: server.fly
+    permission-message: You are not allowed to use this command!
+  eat:
+    description: Server Essentials Command
+    permission: server.eat
+    permission-message: You are not allowed to use this command!
+  feed:
+    description: Server Essentials Command 
+    permission: server.eat
+    permission-message: You are not allowed to use this command!
+  heal:
+    description: Server Essentials Command 
+    permission: server.heal
+    permission-message: You are not allowed to use this command!
+  restore:
+    description: Server Essentials Command 
+    permission: server.heal
     permission-message: You are not allowed to use this command!
