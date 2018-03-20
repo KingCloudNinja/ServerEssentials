@@ -1,22 +1,10 @@
 main: tld.example.myplugin.Main
 name: ServerEssentials
-version: 0.0.5
+version: 0.0.6
 author: KingCloudNinja
 description: Server Essentials Plugin
 commands:
-  hype:
-    description: Server Essentials Command
-    permission: server.all
-    permission-message: Unknown command. Type "/help" for help.
   spec:
-    description: Server Essentials Command
-    permission: server.mod
-    permission-message: Unknown command. Type "/help" for help.
-  v:
-    description: Server Essentials Command
-    permission: server.mod
-    permission-message: Unknown command. Type "/help" for help.
-  unv:
     description: Server Essentials Command
     permission: server.mod
     permission-message: Unknown command. Type "/help" for help.
@@ -28,7 +16,7 @@ commands:
     description: Server Essentials Command
     permission: server.mod
     permission-message: Unknown command. Type "/help" for help.
-  unfakeleave:
+  fakejoin:
     description: Server Essentials Command
     permission: server.mod
     permission-message: Unknown command. Type "/help" for help.
@@ -56,14 +44,6 @@ commands:
     description: Server Essentials Command
     permission: server.all
     permission-message: Unknown command. Type "/help" for help.
-  mute:
-    description: Server Essentials Command
-    permission: server.mod
-    permission-message: You are not allowed to use this command!
-  ban:
-    description: Server Essentials Command
-    permission: server.mod
-    permission-message: You are not allowed to use this command!
   bc:
     description: Server Essentials Command
     permission: server.mod
@@ -92,3 +72,11 @@ commands:
     description: Server Essentials Command 
     permission: server.heal
     permission-message: You are not allowed to use this command!
+  se:
+    description: Server Essentials Command
+    permission: server.admin
+    permission-message: Unknown command. Type "/help" for help.
+  serveressentials:
+    description: Server Essentials Command
+    permission: server.admin
+    permission-message: Unknown command. Type "/help" for help.
