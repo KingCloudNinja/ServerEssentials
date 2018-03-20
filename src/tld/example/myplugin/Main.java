@@ -222,16 +222,22 @@ public class Main extends JavaPlugin implements Listener {
 			if(!player.isFlying()){
 			player.setFlying(true);
 			}
-			if(args.length == 2){
+			if(player.hasPermission("server.togglefly")){
+			if(args.length == 1){
 			Player target = Bukkit.getServer().getPlayer(args[0]);
-			if(target.isFlying()){
-			target.setFlying(false);
+				if(target.isFlying()){
+					target.setFlying(false);
 			}
 			if (!target.isFlying()){
 			target.setFlying(true);
 			}
 			}
+			}
+			else{
+				player.sendMessage(ChatColor.RED + "Usage: /fly OR /fly (player)");
+			}
 		}
+		
 	return false;
 	}
 
