@@ -89,3 +89,8 @@ commands:
     usage: 
     permission: server.mod
     permission-message: You are not allowed to use this command!
+  fly:
+    description: Server Essentials Command
+    usage: 
+    permission: server.fly
+    permission-message: You are not allowed to use this command!

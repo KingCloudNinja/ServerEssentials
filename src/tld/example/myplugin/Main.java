@@ -23,7 +23,13 @@ public class Main extends JavaPlugin implements Listener {
     	
 	}
 	
-	
+	public void loadConfiguration(){
+	     String path = "Commands.ServerName";
+	     getConfig().addDefault(path, "I did!");
+	     getConfig().options().copyDefaults(true);
+	     saveConfig();
+	}
+
 	
 	
 	@EventHandler
@@ -38,6 +44,7 @@ public class Main extends JavaPlugin implements Listener {
     	config.addDefault("servername", true);
     	config.addDefault("discord", true);
     	String servername = (String) "ServerName";
+    	
     	
     	
     	
@@ -202,6 +209,28 @@ public class Main extends JavaPlugin implements Listener {
 			broadcastMessage = String.join(" ", args);
 					Bukkit.broadcastMessage(ChatColor.AQUA + servername  + ChatColor.DARK_GRAY + "> " + ChatColor.GREEN + broadcastMessage);
 		}
+		}
+		if(commandLabel.equalsIgnoreCase("serveressentials") || commandLabel.equalsIgnoreCase("se")){
+			if(args[0] == "reload"){
+				//plugin.reloadConfig()
+			}
+		}
+		if(commandLabel.equalsIgnoreCase("fly")){
+			if(player.isFlying()){
+			player.setFlying(false);
+			}
+			if(!player.isFlying()){
+			player.setFlying(true);
+			}
+			if(args.length == 2){
+			Player target = Bukkit.getServer().getPlayer(args[0]);
+			if(target.isFlying()){
+			target.setFlying(false);
+			}
+			if (!target.isFlying()){
+			target.setFlying(true);
+			}
+			}
 		}
 	return false;
 	}
